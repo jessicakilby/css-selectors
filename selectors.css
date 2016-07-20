@@ -61,7 +61,7 @@ a .disabled {
 }
 */
 
-.grandparent h4{
+.grandparent > h4{
   border-radius: 50px;
   border: 1px solid black;
 }
