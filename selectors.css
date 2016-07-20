@@ -1,0 +1,83 @@
+header {
+  border: 1px solid teal;
+}
+nav ul li {
+  display: inline;
+  margin-right: 52px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  color: teal;
+}
+
+.disabled {
+  color: gray;
+}
+
+a .disabled {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+.parent div div:nth-child(1){
+  color: red;
+}
+
+.parent div h4:nth-child(2){
+  background-color: red;
+}
+
+.parent div div:nth-child(3){
+  color: blue;
+}
+
+.parent div h4:nth-child(4){
+  background-color: blue;
+}
+
+
+/*  OR
+.parent div div:nth-of-type(1){
+  color: red;
+}
+
+.parent div h4:nth-of-type(1){
+  background-color: red;
+}
+
+.parent div div:nth-of-type(2){
+  color: blue;
+}
+
+.parent div h4:nth-of-type(2){
+  background-color: blue;
+}
+*/
+
+.grandparent h4{
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+/*.grandparent h4:nth-of-type(4)*/
+
+
+div.promo {
+  color: gold;
+}
+
+div.promo .disabled{
+  color: gold;
+}
+
+input {
+  height: 25px;
+  width: 250px;
+}
